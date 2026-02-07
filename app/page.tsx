@@ -78,9 +78,9 @@ function Hero() {
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
               Prendre rendez-vous
             </a>
-            <a href="tel:5147089087" className="w-full sm:w-auto inline-flex items-center justify-center gap-2 border-2 border-gray-200 text-gray-700 px-8 py-4 rounded-full text-lg font-semibold hover:border-cyan-300 hover:text-cyan-700 transition-all">
+            <a href="tel:4501234567" className="w-full sm:w-auto inline-flex items-center justify-center gap-2 border-2 border-gray-200 text-gray-700 px-8 py-4 rounded-full text-lg font-semibold hover:border-cyan-300 hover:text-cyan-700 transition-all">
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-              (514) 708-9087
+              (450) 123-4567
             </a>
           </div>
           <div className="mt-12 flex flex-wrap justify-center sm:justify-start items-center gap-6 sm:gap-8">
@@ -245,7 +245,7 @@ function Appointment() {
                 <svg className="w-6 h-6 text-cyan-200" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               </div>
               <div>
-                <div className="font-semibold">(514) 708-9087</div>
+                <div className="font-semibold">(450) 123-4567</div>
                 <div className="text-cyan-200 text-sm">Lun-Ven 8h-17h</div>
               </div>
             </div>
@@ -254,7 +254,7 @@ function Appointment() {
                 <svg className="w-6 h-6 text-cyan-200" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
               </div>
               <div>
-                <div className="font-semibold">alex@perroquet.io</div>
+                <div className="font-semibold">info@cliniquedentairelaurentides.ca</div>
                 <div className="text-cyan-200 text-sm">Réponse en 24h</div>
               </div>
             </div>
@@ -350,9 +350,9 @@ function Contact() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
-            { icon: "📍", title: "Adresse", lines: ["1234, boul. du Curé-Labelle", "Blainville, QC J7C 2P2"] },
+            { icon: "📍", title: "Adresse", lines: ["145, boul. de la Seigneurie", "Blainville, QC J7C 4N1"] },
             { icon: "🕐", title: "Heures d'ouverture", lines: ["Lundi - Vendredi: 8h - 17h", "Samedi: 9h - 14h", "Dimanche: Fermé"] },
-            { icon: "📞", title: "Coordonnées", lines: ["(514) 708-9087", "alex@perroquet.io"] },
+            { icon: "📞", title: "Coordonnées", lines: ["(450) 123-4567", "info@cliniquedentairelaurentides.ca"] },
           ].map((c) => (
             <div key={c.title} className="text-center p-8 rounded-2xl bg-gray-50 hover:bg-cyan-50 transition-colors">
               <div className="text-4xl mb-4">{c.icon}</div>
@@ -365,7 +365,7 @@ function Contact() {
         </div>
         <div className="mt-12 rounded-2xl overflow-hidden shadow-xl h-80">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44654.95839285104!2d-73.89!3d45.67!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc922b5e7329091%3A0x5043e7e58d3e0a0!2sBlainville%2C%20QC!5e0!3m2!1sfr!2sca!4v1700000000000"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.5!2d-73.8815!3d45.6715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc922b5e7329091%3A0x1!2s145+Boulevard+de+la+Seigneurie%2C+Blainville%2C+QC+J7C+4N1!5e0!3m2!1sfr!2sca!4v1700000000000"
             width="100%"
             height="100%"
             style={{ border: 0 }}
